@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a {
+ font-size: 16px;
+ text-decoration: none;
+ font-weight: bold;
+ color: midnightblue;
+}
+
+a:hover {
+text-decoration: hotpink double underline;
+}
+p, h3 {
+margin:10px;
+padding: 5px 10px;
+background-color: #fff4ff;
+}
+
+.largemagic {
+color: yellow;
+font-size: 1.5rem;
+}
+
+.magic {
+margin:10px;
+padding: 5px 10px;
+background-color: skyblue;
+}
+body {
+  margin: 0;
+}
+.stage {
+  animation: animateBg 10s linear infinite;
+  background-image: linear-gradient(0deg,#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+  background-size: 100% 1100%;
+  height: 100vh;
+  width: 100vw;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+</style>
+    <title>ANDURIL GAN + CLIP</title>
+</head>
+ <body class="stage" style="font-family:monospace;">
+    <h3 class="largemagic magic">ANDURIL GAN + CLIP</h3>
+    <p><a href="gallery.php">View the GALLERY</a></p>
+    <p><a href="api/current">Click to view currently being processed if any...</a></p>
+    <p><a href="api/queuelist">Click to view queue if any...</a></p>
+    <br />
+    <h3 class="magic">Quickstart guide to submit</h3>
+    <p>Just go to <a href="http://10.10.200.19/api/">http://10.10.200.19/api/</a> and then add whatever phrase you want at the end of the url, spaces are ok, they will auto-convert properly!</p>
+    <p>Enjoy and please give feedback on slack or jcampbell@anduril.com</p>
+</body>
+</html>
