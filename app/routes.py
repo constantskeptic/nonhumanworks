@@ -1,8 +1,8 @@
 from app import app
 import redis
 from datetime import datetime
-
-r = redis.StrictRedis(decode_responses=True)
+from .config import password
+r = redis.StrictRedis(host="104.131.43.222", password=password, decode_responses=True)
 
 
 def filterprofanity(stringtocheck) -> (bool):
