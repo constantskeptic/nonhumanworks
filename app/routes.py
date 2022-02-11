@@ -25,7 +25,7 @@ def filterprofanity(stringtocheck) -> (bool):
 @app.route('/api/')
 @app.route('/index')
 def index():
-    return "Welcome to Anduril AI Art Generator! Simply pass in the phrase you want to use in the url itself, for example <a href='https://nonhuman.works/api/dogs%20playing%20golf'>https://nonhuman.works/api/dogs playing golf</a>"
+    return "Welcome to nonhuman.works! Simply pass in the phrase (even including spaces) you want to use in the url itself, for example <a href='https://nonhuman.works/api/dogs%20playing%20golf'>https://nonhuman.works/api/dogs in space</a>"
 
 
 @app.route('/api/<id>') 
