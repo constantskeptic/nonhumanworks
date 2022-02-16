@@ -29,3 +29,17 @@ Prompt "time reversal"
 Prompt "watercolor drones in the sky"
 
 ![watercolor-drones](https://user-images.githubusercontent.com/616585/154299595-b197ae43-493a-4a09-9a03-f72f71274e3c.png)
+
+### Workflow
+
+1. Prompt is added via api
+2. Redis queue set populated
+3. Every minute cron checks for items in queue and then processes one by on in queue
+4. current key set to current working
+5. busy key set
+6. image created
+7. cron checking for images every minute to sshuttle to static image server
+8. busy key unset
+9. current key set to "taking a break"
+
+
