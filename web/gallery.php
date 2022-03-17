@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 echo '<link rel="stylesheet" href="styles.css">';
-
+echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
 ini_set("display_errors", 1);
         $dirname = "static/";
         $images = scandir($dirname);
