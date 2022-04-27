@@ -18,7 +18,7 @@ Web: basic html & php for the gallery display
 
 ### Images
 
-The images are 256x256px due to the constraints on only having 8GB gpu available. If we had 16GB we would be able to do 512x512.
+The images are 256x256px due to the constraints on only having 12GB gpu available. If we had 16GB we would be able to do 512x512.
 
 ### Examples
 
