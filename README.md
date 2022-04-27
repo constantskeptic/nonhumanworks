@@ -42,4 +42,8 @@ Prompt "watercolor drones in the sky"
 8. busy key unset
 9. current key set to "taking a break"
 
+### Workflow diagram
+
+![nonhumanworks-architecture-diagram](https://user-images.githubusercontent.com/616585/165548891-45859778-eaeb-43ac-87ea-559e6c1b2ada.png)
+
 
