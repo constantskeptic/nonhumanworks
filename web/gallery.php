@@ -28,7 +28,7 @@ $filer = scan_dir($dirname);
         $ignore = Array(".", "..");
         foreach($filer as $curimg){
             if(!in_array($curimg, $ignore)) {
-                echo "<li><a title='".$curimg."' href='".$dirname.$curimg."'><img src='".$dirname.$curimg."' alt='' /></a></li>\n";
+                echo "<li><a title='".$curimg."' href='".$dirname.$curimg."'><img width='256' src='".$dirname.$curimg."' alt='' /></a></li>\n";
             }
         }                 
 ?>

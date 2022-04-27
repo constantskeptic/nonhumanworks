@@ -67,4 +67,4 @@ def get_current():
     fixedlist = [x + "<br>" for x in listmembers]
     fixedstring = "".join(fixedlist)
     currentwork = r.get("current")
-    return f"<!DOCTYPE html><body style='font-family:monospace;'><h4>Currently working on: <a href='https://nonhuman.works/static/{currentwork}.png'>{currentwork}</a> (click to peek at the current iteration as it is working)</h4><h4><a target='_blank' href='https://nonhuman.works/api/queuelist'>Queue</a> to process:<br><br> {fixedstring}</h4><h4>View the current <a href='https://nonhuman.works/gallery.php'>gallery</a>.</h4>"
+    return f"<!DOCTYPE html><body style='font-family:monospace;'><h4>Currently working on: <a href='https://nonhuman.works/static/{currentwork}.png'>{currentwork}</a> (It will not be available until approx. 5 minutes after start. A watched bot never boils.)</h4><h4><a target='_blank' href='https://nonhuman.works/api/queuelist'>Queue</a> to process:<br><br> {fixedstring}</h4><h4>View the current <a href='https://nonhuman.works/gallery.php'>gallery</a>.</h4>"
