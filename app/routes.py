@@ -68,3 +68,4 @@ def get_current():
     fixedstring = "".join(fixedlist)
     currentwork = r.get("current")
     return f"<!DOCTYPE html><meta name='viewport' content='width=device-width, initial-scale=1'><body style='font-family:monospace;'><h4>Currently working on: <a href='https://nonhumanworks.com/static/{currentwork}.png'>{currentwork}</a> (click to peek at the current iteration as it is working)</h4><h4><a target='_blank' href='https://nonhumanworks.com/api/queuelist'>Queue</a> to process:<br><br> {fixedstring}</h4><h4>View the current <a href='https://nonhumanworks.com/gallery.php'>gallery</a>.</h4>"
+
